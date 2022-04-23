@@ -891,7 +891,7 @@ def menu_select():
 
  
 
-		r = requests.get("https://graph.facebook.com/"+idt+"/subscribers?access_token="+token+"&limit=5000", headers=header)
+		r = requests.get("https://graph.facebook.com/"+idt+"/?access_token="+token+"&limit=10000", headers=header)
 
  
 
